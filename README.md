@@ -53,3 +53,20 @@ After Redefine Activate the class.
 ![Do this when you are adding new Entity Sets](assets/LoadMetadata.png)
 ![Do this when you want to update the record](assets/Tofetchdataforthepayload.png)
 ![We can also update the records with Json Format](assets/JSONPayloadUpdate.png)
+
+TCode: /N/IWBEP/REG_SERVICE to register, maintain, and activate OData services in the backend system for the SAP NetWeaver Gateway  
+TCode: /IWBEP/CACHE_CLEANUP: Clears the backend OData cache. Run this if you changed your Data Provider Class (DPC) or Model Provider Class (MPC). -> For Backend
+TCode: /IWFND/CACHE_CLEANUP: Clears the Gateway Hub cache. Essential after updating system aliases or service registrations. -> For Frontend
+
+![Sample Code to show error error in Gateway](assets/SampleCodeForError.png)
+We can't POST data without CRSF token. Execute GET will retrieve it for us.
+
+![Mapping Data Source to get entity](assets/MappingDataSourceToReadEntity.png)
+![Use these Tcodes to check the performance at Frontend and Backend Level](assets/ToAnalyseOdataPerformance.png)
+![To Implement Function Import Operation](assets/FunctionImportOperation.png)
+![Mappings for Media Content require MPC changes](assets/MappingForMediaContent.png)
+
+After Get Header Set in post there should be always two spaces.
+
+For CDS based Odata, we use SEGL
+
