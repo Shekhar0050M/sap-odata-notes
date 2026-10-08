@@ -70,3 +70,4 @@ After Get Header Set in post there should be always two spaces.
 
 For CDS based Odata, we use SEGL
 
+![Error Handling could be done using this interface](assets/ErrorHandling.png)
